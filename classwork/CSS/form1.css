@@ -1,0 +1,15 @@
+form{
+    background-color: aqua;
+    width: 300px;
+}
+input{
+    border-radius: 5px;
+}
+
+fieldset{
+    border-radius: 5px;
+}
+legend{
+    border-radius: 5px;
+    background-color: gray;
+}

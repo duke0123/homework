@@ -1,0 +1,58 @@
+.c-item {
+
+    height: 600px;
+}
+
+.c-img {
+    height: 800px;
+
+
+}
+
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.d-item {
+    height: 600px;
+}
+
+
+.box1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.box2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(255, 255, 255)
+}
+
+.box4 {
+    color: white
+}
+
+a {
+    color: white;
+}
+
+.box5 {
+    width: 300px;
+}
+
+.box6 {
+    font-size: 30px;
+}
+
+.box7 {
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.navbar {
+    opacity: 0.5;
+}

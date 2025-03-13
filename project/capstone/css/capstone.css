@@ -1,0 +1,46 @@
+.c-item {
+
+
+    height: 600px;
+}
+
+.c-img {
+    height: 800px;
+
+
+}
+
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.d-item {
+    height: 600px;
+}
+
+
+.box1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.box2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.box4 {
+    color: white
+}
+
+a {
+    color: white;
+}
+
+.navbar {
+    opacity: 0.5;
+}

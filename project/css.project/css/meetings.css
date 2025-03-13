@@ -1,0 +1,90 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+body{
+    background-color:#c2c5d6;
+}
+
+
+header{
+    width: 960px;
+}
+
+.nav1{
+    
+    text-align: center;
+}
+
+.nav1 a{
+    color:blueviolet;
+    margin-left: 60px;
+}
+
+.box1{
+    color:blueviolet;
+    margin:20px 0px 0px 50px;
+}
+
+h1{
+    margin:0px 0px 0px 60px;
+}
+
+.box2{
+    width: 500px;
+}
+
+.box4{
+    float: right;
+    margin: -60px 120px 0px 0px;
+}
+
+.box5{
+    font-size: 20px;
+}
+.box7{
+    width:500px;
+}
+
+.box8{
+    font-size: 20px;
+}
+
+.box9{
+    font-size: 20px;
+}
+.box10{
+    width: 500px;
+}
+.box11{
+    width: 500px;
+}
+.box12{
+    float: right;
+    margin: -380px 120px 0px 0px;
+}
+.box13{
+    float: right;
+    margin: -150px 120px 0px 0px;
+}
+.box14{
+    font-size: 20px;
+}
+.box15{
+    width: 500px;
+}
+
+.box16{
+    float:right;
+    margin: -140px 120px 0px 0px;
+}
+
+footer{
+    width: 960px;
+    height: 50px;
+    background-color: blueviolet;
+    color:white;
+    clear:both;
+
+}

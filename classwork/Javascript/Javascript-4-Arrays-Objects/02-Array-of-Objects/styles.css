@@ -1,0 +1,19 @@
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+
+html,
+body{
+	font-size: 18px;
+	line-height: 1.2em;
+}
+
+body{
+    background-color: slategrey;
+	color: #e5e5e5;
+}
+
+div.characterInfo {
+	border: 1px solid red;
+	color: #888888;
+}

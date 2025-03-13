@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <style>
+        textarea{
+            height: 100px;
+            width: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function handleInput() {
+            console.log('handling the input')
+
+          var howLongNow = document.querySelector('textarea').value.length
+
+            // limit to 100 chars
+            const limit = 100;
+           if ( howLongNow > limit){
+             console.log('you went too far!')
+             document.querySelector('textarea').value = document.querySelector
+             ('textarea').value.substring(0,limit)
+
+           }
+
+           console.log("Currently the length of the field is" + document.querySelector ('textarea').value.length)
+
+           // show how many chars remaining
+           document.querySelector('#remaining').innerHTML = limit - document.querySelector('textarea').value.length;
+
+
+        }
+
+
+     $(document).ready(function(){
+        document.querySelector('textarea').addEventListener('input', handleInput)
+     })
+    </script>
+
+    <textarea></textarea>
+    <p> <span id ="remaining">100 characters left</span> </p>
+
+
+
+  //  <script>
+ //        function handleInput() {
+  //          console.log('Handling the input!!!!')
+
+  //          var howLongNow = $('textarea').val().length;
+
+            // Limit to 100 chars:
+  //          const limit = 100;
+//
+ //           if ( howLongNow > limit ) {
+   //             console.log("you went too far!")
+  //             document.querySelector('textarea').value = $('textarea').val().substring(0, limit)
+   //         }
+//
+    //        console.log("Currently the length of the field is " + $('textarea').val().length)
+
+   //         console.log(
+    //        )
+
+            // Show how many chars remaining:
+ //           $('#remaining').html( limit - $('textarea').val().length );
+ //       }
+
+ ////       $(document).ready(
+   //         function() {
+     //           $('textarea').on('input', handleInput)
+   //         }
+   //     )
+
+ //   </script>
+/
+  ///  <textarea></textarea>
+  //  <p>
+   //     <span id="remaining">
+     //       100
+        </span>
+    //    characters left
+    </p>
+
+
+       
+
+
+
+
+
+
+
+
+   
+</body>
+</html>

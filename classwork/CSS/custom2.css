@@ -1,0 +1,9 @@
+.row{
+    background-color: rgb(74, 75, 78);
+}
+
+
+.bannerimg{
+    background-image: url(../images/jumbo-bg.jpg);
+    background-size: cover;
+}

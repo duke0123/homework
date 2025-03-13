@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+    <h1>Hello, world!</h1>
+
+<script>
+    function test(){
+        console.log('Hello')
+        console.log('goodbye')
+    }
+
+    test();    
+    // call (execute/run/invoke) the function
+
+// camelCase
+    function addTwo(n) {
+        return n + 2
+    }
+
+   let result = addTwo(6);
+   console.log( addTwo(6) );
+
+</script>
+
+ 
+
+<script>
+var characters = ['Fry', 'Bender', 'Leela', 'Professor']; 
+console.log( characters[0] );
+console.log( characters[1] );
+console.log( characters[2] );
+console.log( characters[3] );
+// character.length = how many in the array
+// character.indexof = which position is it located 
+// character.join() = grouping everything together
+// character.join ('') ('-') ('/')
+// Methods for adding/removing array elements:
+// push() -- method that adds an element to the end of the array
+// pop() -- method that removes an element from the end of the array
+// unshift() -- method that adds an element to the beginning of the array
+// shift() -- method that removes an element from the beginning of the array
+
+
+console.log('-------------');
+let i = 0;
+while (i < 4){
+    console.log(characters[i])
+    i++ // or: i = i + 1      characters.length tells how many are in the array
+}
+
+
+
+
+for (let i = 0; i < characters.length; i++ ) {
+				console.log(characters[i])
+			}
+
+
+
+
+ var person = {
+    fname: 'Philip',
+    lname: 'Fry',
+    address: '123 Main St',
+    age: 34
+ }
+
+ console.log(person.fname)
+
+
+ var characters = [
+				{
+					name: 'Fry',
+					age: 25,
+					homePlanet: 'Earth',
+					species: 'Human',
+					famousSayings: ['asdf', 'sdfasdfasdf']
+				},
+				{
+					name: 'Bender',
+					age: 25,
+				},
+				{
+					name: 'Leela',
+					age: 27,
+					homePlanet: 'Earth',
+					species: 'Mutant',
+					famousSayings: [
+						'Heeeyah',
+						'You are cool!'
+					]
+				}
+			];
+
+            console.log(characters[0].name)
+            console.log(characters[2].age)
+            console.log(characters[2].famousSayings[1]);
+            console.log(characters[1].age)
+
+
+</script>
+
+
+
+
+
+
+
+
+
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat non, tempore culpa sit ratione facilis error inventore et corporis labore libero commodi, beatae accusamus! Repellat cumque earum quo voluptatum!</div>
+        <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat non, tempore culpa sit ratione facilis error inventore et corporis labore libero commodi, beatae accusamus! Repellat cumque earum quo voluptatum!</div>
+        <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat non, tempore culpa sit ratione facilis error inventore et corporis labore libero commodi, beatae accusamus! Repellat cumque earum quo voluptatum!</div>
+        <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat non, tempore culpa sit ratione facilis error inventore et corporis labore libero commodi, beatae accusamus! Repellat cumque earum quo voluptatum!</div>
+        <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat non, tempore culpa sit ratione facilis error inventore et corporis labore libero commodi, beatae accusamus! Repellat cumque earum quo voluptatum!</div>
+        <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat non, tempore culpa sit ratione facilis error inventore et corporis labore libero commodi, beatae accusamus! Repellat cumque earum quo voluptatum!</div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </div>
+
+
+
+
+  </body>
+</html>

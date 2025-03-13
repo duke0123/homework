@@ -1,0 +1,66 @@
+.box1{
+    margin:0px 0px 0px 500px;
+}
+.box2{
+    margin-left: 500px;
+}
+.box3{
+    margin-left: 500px;
+}
+.box4{
+    width: 800px;
+    margin-left: 500px;
+   
+}
+.box5{
+    margin-left: 500px;
+    
+}
+.box8{
+    margin-left: 500px;
+}
+
+
+@media only screen and (max-width:960px) {
+    .box1{
+        width: 50%;
+        
+    }
+
+    .box2{
+        width: 50%;
+        
+    }
+    .box3{
+        width: 50%;
+       
+    }
+    .box4{
+        width: 50%;
+    }
+
+ 
+}
+
+
+@media only screen and (max-width:720px) {
+    .box1{
+        width: 50%;
+        
+    }
+
+    .box2{
+        width: 50%;
+        
+    }
+    .box3{
+        width: 50%;
+       
+    }
+    .box4{
+        width: 50%;
+    }
+
+    
+
+}

@@ -1,0 +1,45 @@
+.container{
+    width:1024px;
+    margin: 0 auto;
+}
+header{
+    width: 1024px;
+    height: 200px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+header h1{
+    padding-top:20px;
+
+}
+
+nav{
+    width:200px;
+    height:300px;
+    background-color: gray;
+    float: left;
+}
+
+nav ul li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+article{
+    width: 824px;
+    height: 300px;
+    float: left;
+}
+
+footer{
+    width: 1024px;
+    height: 100px;
+    float: left;
+    clear: both;
+    background-color: black;
+    color: white;
+}
+
+
+   

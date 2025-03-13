@@ -1,0 +1,141 @@
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1024px;
+    height: 300px;
+    background-color: rgb(232, 60, 8); 
+}
+
+.nav1{
+    width: 1024px;
+    text-align: center;   
+}
+
+.nav1 a{
+    color:white; 
+    margin-left: 70px;
+}
+
+
+.pic2{
+    width: 150px;
+    height: 150px;
+    margin: 40px 0px 0px 80px;
+}
+
+.pic1{
+    width: 1024px;
+    height: 300px;
+}
+
+.box{
+    width: 250px;
+    height: 50px;
+    float:right;
+    margin: 80px 400px 0px 50px;
+    color:white;
+   
+}
+
+.box2{
+    width: 100px;
+    height:10px;
+    float:right;
+    margin: -50px 300px 200px 0px;
+    font-weight: bold;
+}
+
+.box3{
+    width:130px;
+    height: 10px;
+    float:left;
+    margin: 50px 0px 0px 100px;
+   
+}
+
+.box4{
+    width:130px;
+    height: 10px;
+    float:right;
+    margin:50px 0px 0px -200px;  
+}
+
+.section{
+    width: 600px;
+    height: 300px;
+}
+
+.work{
+color:black;
+font-weight: bold;
+font-size:20px;
+margin:0px 0px 0px 220px;
+clear:both;
+
+}
+
+.box5{
+    width: 50px;
+    height: 50px;
+}
+
+.box6{
+    width: 50px;
+   height: 50px;
+   
+   margin:100px 0px 0px 0px;
+}
+  
+.box7{
+    width: 50px;
+    height: 50px;
+    margin:-190px 350px 0px 0px;
+    float:right;
+    
+}
+
+.box8{
+    width: 50px;
+    height: 50px;
+    margin:-50px 350px 300px 400px;
+    float:right;
+}
+
+.work2{
+    width: 1024px;
+    height: 300px;
+    clear: both;
+}
+
+
+
+.box9{
+    width:1024px;
+    height: 300px;
+}
+
+
+.box10{
+    width: 150px;
+    height: 100px;
+}
+
+
+
+
+
+.footer{
+    width: 1024px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+
+.nav2 a{
+    color:white;
+    margin-left: 90px;
+}

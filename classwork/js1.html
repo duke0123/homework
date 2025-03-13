@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <script>
+        document.write("Hello!");
+        console.log("This shows up in the console");
+        alert("This is a popup");
+     </script>
+
+     <script>
+        var ago = prompt("how old are you?");
+        alert("you are" + age + "year old!" );
+     </script>
+
+     <script>
+         var item1 = prompt("product 1");
+         var item2 = prompt("product 2");
+         var item3 = prompt("product 3");
+         var item4 = prompt("product 4");
+         var item5 = prompt("product 5");
+
+
+         var item1 = prompt("product " + item1 + "price");
+         var item2 = prompt('product' + item2 + 'price');
+         var item3 = prompt(`product 3 ${item3} price: `);
+         var item4 = prompt("product 4" + item4 + "price");
+         var item5 = prompt("product 5" + item5 + "price");
+
+         // 0.99 parsed into an integer,it'll only consider the value on the left
+
+         var total = parseFloat (item1price) + parseFloat (item2price) + parseFloat (item3price) +  parseFloat (item4price) + parseFloat (item5price);
+        
+
+         alert("the cost is : $"+total);
+
+
+
+     </script>
+    
+</body>
+</html>

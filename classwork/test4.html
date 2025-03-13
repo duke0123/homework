@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #score {
+            border: 1px solid black;
+            width: 100px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+    <p>
+    Score:
+    </p>
+
+    <div id="score">
+        0
+    </div>
+
+    <button id="btn">
+        Click for points!
+    </button>
+
+    <script>
+        var score = 0;
+
+        function addPoints(){
+            console.log('adding points!')
+            score = score + 10
+            document.querySelector('#score').innerHTML = score
+            if (score == 50) {
+                document.querySelector('score').style.backgroundColor = 'yellow'
+
+            }
+            if (score == 100) {
+                document.querySelector('score').style.backgroundColor = 'green'
+
+            }
+
+
+        }
+
+        document.querySelector('#btn').addEventListener('click', addPoints)
+    </script>
+    
+</body>
+</html>

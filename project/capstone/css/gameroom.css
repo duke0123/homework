@@ -1,0 +1,118 @@
+
+.c-item {
+
+
+    height: 600px;
+}
+
+.c-img {
+    height: 800px;
+
+
+}
+
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.d-item {
+    height: 600px;
+}
+
+
+.box1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.box2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.box4 {
+    color: white
+}
+
+a {
+    color: white;
+}
+
+.navbar {
+    opacity: 0.5;
+}
+
+body {
+    font-family: Arial, Helvetica;
+}
+
+able.board {
+    border-collapse: collapse;
+
+}
+
+table.board td {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    color: #000000;
+}
+
+table.board tr td {
+    border: 2px solid #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.turn {
+    display: inline-block;
+    border: 2px dotted rgb(67, 66, 66);
+    padding: 5px;
+}
+
+#player-turn {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.x:before {
+    color: red;
+    content: 'X';
+}
+
+
+.o:before {
+    color: yellow;
+    content: 'O';
+}
+
+.board {
+    background-color: #000000;
+}
+
+canvas {
+    border: 2px solid rgb(151, 149, 149);
+}
+
+.box20 {
+    background-color: #000000;
+    width: 600px;
+    height: 600px;
+    opacity: 0.8;
+}
+
+.box21 {
+    background-color: #000000;
+    width: 600px;
+    height: 500px;
+    opacity: 0.8;
+}
+
+.box22 {
+    color: white;
+}

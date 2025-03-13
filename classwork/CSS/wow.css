@@ -1,0 +1,94 @@
+.container{
+    width: 766px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 766px;
+    height: 120px;
+    background-color: black;
+    float:left;
+}
+
+.logo{
+    width: 95px;
+    height: 55px;
+    float:left;
+    margin: 10px 0px 0px 10px;
+}
+.top_info{
+    width: 140px;
+    height: 40px;
+    float: right;
+    margin:10px 10px 0px 0px;
+}
+
+.nav{
+    width: 766px;
+    height: 60px;
+    float:left;
+    clear:both;
+    text-align: center;
+
+}
+
+.nav a{
+    padding-left: 30px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color:red;
+}
+
+.banner{
+    
+    height: 240px;
+    float:left;
+    clear:both;
+    background-size: cover;
+}
+
+.leftc{
+    width:255px;
+    height: 250px;
+    float:left;
+    background-color: black;
+}
+
+.leftc a{
+    padding-left:60px;
+}
+.leftc a:link{
+    color:orange;
+}
+.leftc a:hover{
+    color:blue;
+}
+
+.middlec{
+    width: 255px;
+    height: 250px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.rightc{
+    width: 255px;
+    height: 250px;
+    float: left;
+    background-color: black;
+
+}
+
+.footer{
+    width: 766px;
+    height: 60px;
+    float: left;
+    clear:both;
+    background-color: gray;
+}
+

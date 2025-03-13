@@ -1,0 +1,16 @@
+body{
+    background-color: gray;
+}
+section{
+    width: 1024px;
+    height:500px;
+    float:left;
+    clear:both;
+}
+article{
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+}
